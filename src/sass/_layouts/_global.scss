@@ -1,4 +1,14 @@
 #root{
-    margin-right: auto;
-    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    border: 2px solid;
+    
+}
+
+body{
+    background-color: rgb(41, 41, 41);
+    color: white;
+    padding: 4rem ;
 }
