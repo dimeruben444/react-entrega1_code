@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <div>
+    <div className="home">
       <h1>Relación de ejercicios React</h1>
       <ul>
         <li><a href="/ejercicio1">Ejercicio 1</a></li>

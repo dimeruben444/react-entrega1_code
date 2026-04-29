@@ -3,12 +3,42 @@
     justify-content: center;
     align-items: center;
     
-    border: 2px solid;
+   
     
 }
 
 body{
-    background-color: rgb(41, 41, 41);
+    background-color: #141414;
     color: white;
-    padding: 4rem ;
+    padding: 2rem 4rem ;
 }
+
+
+
+.ej-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.button{
+    margin-left: auto;
+    margin-right: auto;
+    
+    color: white;
+    
+    font-size: medium;
+    border: 2px solid #222222;
+    padding: 1.4rem;
+    border-radius: 1.9rem;
+    background-color: inherit;
+
+    &:hover{
+        background-color: gray;
+        box-shadow: inset;
+        text-shadow: #474747 3px 5px 2px;
+    }
+    
+}
+
+

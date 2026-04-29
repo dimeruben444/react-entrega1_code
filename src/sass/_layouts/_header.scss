@@ -1,0 +1,32 @@
+.header-container{
+    h1{
+         text-shadow: #474747 3px 5px 2px;
+    }
+    p{
+        padding: 1rem 7rem;
+    }
+}
+
+
+.header-nav{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 0.3rem;
+    margin-bottom: 2rem;
+    padding-left: 0;
+    li a{
+        color: white;
+        text-decoration: none;
+        padding: 1rem;
+        border-radius: 2rem;
+        border: 2px solid #55555522 ;
+        &:hover{
+            background-color: gray;
+            box-shadow: inset;
+            text-shadow: #474747 3px 5px 2px;
+            
+        }
+    }
+
+}
