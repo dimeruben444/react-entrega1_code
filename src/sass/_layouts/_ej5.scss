@@ -1,0 +1,36 @@
+.ej5-result, .ej5-value1, .ej5-value2{
+    height: 1.4rem;
+    background-color: white;
+    border-radius: 1rem;
+    outline: -webkit-focus-ring-color auto 1px;
+    text-align: center;
+    
+    
+}
+
+.ej5-result{
+    outline: none;
+}
+
+.ej5-calculator{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1REM;
+}
+
+.ej5-buttons{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+
+    button{
+        margin: 0;
+        background-color: white;
+        color: black;
+        font-weight: bold;
+        outline: -webkit-focus-ring-color auto 1px;
+    }
+}
+

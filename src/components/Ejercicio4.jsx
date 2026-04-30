@@ -52,8 +52,9 @@ const Ejercicio4 = () => {
       ● Mientras el usuario escribe en el campo, la lista debe actualizarse en tiempo real para mostrar solo los elementos que contienen el texto escrito. 
       Ejemplo: Si la lista contiene ['Perro', 'Gato', 'Pez'] y el usuario escribe 'Ga', solo 'Gato' debe quedar visible."/>
 
-      <input type="text" value={input} onChange={handleChange} />
-      <ul>
+      <input type="text" value={input} onChange={handleChange} className='ej4-input'placeholder='introduce producto'/>
+      
+      <ul className='ej4-list'>
         {listafiltrada.map((item , index)=>{
           return <li key={index}>{item}</li>
         })}
