@@ -8,7 +8,10 @@ const Ejercicio6 = () => {
     <Header 
     titulo="Ejercicio 6:
      Temporizador con Inicio, Pausa y Reinicio "
-    enunciado="Crea una página web con un botón que diga 'Cambiar color'. Cada vez que el usuario haga clic en el botón, el color de fondo de la página debe cambiar a un color aleatorio."/>
+    enunciado="Crea una página con un temporizador que comience en 00:00:00. Incluye tres botones: “Iniciar”, “Pausar” y “Reiniciar”. 
+    • Al hacer clic en “Iniciar”, el temporizador debe comenzar a contar los segundos, minutos y horas. 
+    • “Pausar” detiene el conteo pero mantiene el tiempo actual. 
+    • “Reiniciar” pone el temporizador en 00:00:00."/>
     
 
     </div>

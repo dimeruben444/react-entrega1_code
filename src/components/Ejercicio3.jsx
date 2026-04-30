@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import Header from './Header'
 const Ejercicio3 = () => {
 
@@ -23,6 +23,16 @@ const Ejercicio3 = () => {
 
   }
 
+  const handleEliminar =(indice)=>{
+    
+    const newarr = [...arrTodo]
+    newarr.splice(indice,1)
+
+    setTodo(newarr)
+
+  };
+
+  
   return (
     <>
     <div className='ej-container'>
@@ -42,7 +52,8 @@ const Ejercicio3 = () => {
 
       <ul className='ej3-ul'>
           {arrTodo.map((elemento, indice)=>{
-            return<li key={indice}>{elemento} <button>x</button></li>
+            return<li key={indice}>{elemento} 
+                  <button className='button ej3-eliminar' onClick={()=>handleEliminar(indice)} >x</button></li>
           })}
       </ul>
 

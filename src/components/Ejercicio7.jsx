@@ -8,7 +8,9 @@ const Ejercicio7 = () => {
     <Header 
     titulo="Ejercicio 7:
     Generador de Contraseñas Aleatorias"
-    enunciado="Crea una página web con un botón que diga 'Cambiar color'. Cada vez que el usuario haga clic en el botón, el color de fondo de la página debe cambiar a un color aleatorio."/>
+    enunciado="Crea una página con un campo de entrada para especificar la longitud de una contraseña y un botón que diga “Generar contraseña”. 
+    • Al hacer clic en el botón, se debe mostrar una contraseña generada aleatoriamente usando letras, números y caracteres especiales. 
+    • Si la longitud es menor a 4 o el campo está vacío, muestra un mensaje de error indicando que la longitud debe ser mayor o igual a 4."/>
     
 
     </div>

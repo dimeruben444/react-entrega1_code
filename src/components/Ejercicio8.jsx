@@ -8,7 +8,9 @@ const Ejercicio8 = () => {
     <Header 
     titulo="Ejercicio 8:
     Contador de Palabras y Caracteres "
-    enunciado="Crea una página web con un botón que diga 'Cambiar color'. Cada vez que el usuario haga clic en el botón, el color de fondo de la página debe cambiar a un color aleatorio."/>
+    enunciado="Crea una página con un campo de texto donde el usuario pueda escribir un párrafo. 
+    • Muestra en tiempo real el número de caracteres y palabras ingresados debajo del campo. 
+    • Palabras deben ser separadas por espacios, y los caracteres no deben incluir espacios ni saltos de línea."/>
     
 
     </div>

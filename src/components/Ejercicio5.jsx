@@ -7,8 +7,11 @@ const Ejercicio5 = () => {
     <div className='ej-container'>
     <Header 
     titulo="Ejercicio 5:
-    Cambiador Color de Fondo"
-    enunciado="Crea una página web con un botón que diga 'Cambiar color'. Cada vez que el usuario haga clic en el botón, el color de fondo de la página debe cambiar a un color aleatorio."/>
+    Calculadora Sencilla"
+    enunciado="Ejercicio: 
+      Crea una página con dos campos de entrada de números y cuatro botones: 'Sumar', 'Restar' 'Multiplicar', y 'Dividir'. 
+      ● Al hacer clic en cualquiera de los botones, debe mostrarse el resultado de la operación en un área de texto o debajo de los botones. 
+      ● Asegúrate de validar los datos para evitar errores (como división por cero o entradas vacías). "/>
     
 
     </div>
