@@ -1,0 +1,14 @@
+.ej9-todos-list{
+    display: flex;
+    flex-direction: column;
+    max-width:17rem;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: start;
+    margin-top: 1.4rem;
+}
+
+.ej9-todos-list-item{
+    display: flex;
+    justify-content: space-between;
+}
