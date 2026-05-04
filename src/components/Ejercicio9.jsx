@@ -86,8 +86,8 @@ const Ejercicio9 = () => {
     <div className='ej9-todos'>
       <div>
         <input type="text" value={todo} onChange={handleChange} />
-        <button onClick={handleGuardar}>Guardar</button>
-        <button onClick={handleLimpiar}>Limpiar</button>
+        <button onClick={handleGuardar}>Save</button>
+        <button onClick={handleLimpiar}>Clear</button>
       </div>
 
       

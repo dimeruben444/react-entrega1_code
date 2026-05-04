@@ -1,0 +1,16 @@
+.ej6-button{
+    
+        margin: 0;
+        background-color: white;
+        color: black;
+        font-weight: bold;
+        outline: -webkit-focus-ring-color auto 1px;
+        
+    
+}
+
+.ej6-button-container{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
